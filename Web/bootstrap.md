@@ -28,7 +28,7 @@
 
   - inline-flex
 
-- `felx-direction` :  쌓이는 방향을 설정
+- `flex-direction` :  쌓이는 방향을 설정
 
   - row(기본 값) : 좌->우
 
@@ -36,25 +36,22 @@
   - column : 위->아래
   - column-reverse : 아래->위
 
-- justify-content : 메인 방향 축 요소들을 어떻게 배치할지 설정
-
-  - flex-start(기본 값) : 좌 상단 부터 시작하므로 좌측 상단부터 차례로 배치됨.
+- `justify-content` : 메인 방향 축 요소들을 어떻게 배치할지 설정
+- flex-start(기본 값) : 좌 상단 부터 시작하므로 좌측 상단부터 차례로 배치됨.
   - flex-end : 끝나는 점부터 배치 (아이템의 순서는 그대로 정렬만 우측에서 부터 시작)
   - center : 메인 축 정중앙
   - space-between :  좌우 정렬(양 끝 아이템은 양끝에 배치하고 균등하게 아이템을 유지)
   - space-around : 아이템 좌우에 동일한 공간을 부여
   - space-evenly : 균등 정렬
-
-- align-items : cross축 요소를 어떻게 배치할 지 결정
-
-  - 기본값 : strech - 공간을 아이템으로 가득 채움.
+  
+- `align-items` : cross축 요소를 어떻게 배치할 지 결정
+- 기본값 : strech - 공간을 아이템으로 가득 채움.
   - flex-start, flex-end, center
   - baseline : item 내부의 text 밑을 기준선으로 맞춤.
-
-- align-self : cross축 각 개별 아이템을 어떻게 배치할지 결정.
-
-  - 설정 값은 위와 동일(기본값 : auto)
-
+  
+- `align-self` : cross축 각 개별 아이템을 어떻게 배치할지 결정.
+- 설정 값은 위와 동일(기본값 : auto)
+  
 - order : 정렬
 
   - 기본 값 : 0
