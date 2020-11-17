@@ -5,6 +5,7 @@
 server라는 폴더 안에
 
 - 가상환경 만들기 (`pythn -m venv venv`)4
+  
   - 가상환경 python 잡아주기 (`source venv/Script/activate`)
 - `pip install django`
 
@@ -12,8 +13,9 @@ server라는 폴더 안에
 
 - `python manage.py startapp todos`
 - 앱설정 ,url, todos의 url, models.py (DB생성)
-  - makemigrations , migrate 진행하기
-
+  
+- makemigrations , migrate 진행하기
+  
 - restframework 설치 및 등록
 
 - serializers.py작성
