@@ -83,7 +83,7 @@
 
 ***
 
-- `vue create clinet`로 vue project만들기
+- `vue create client`로 vue project만들기
 
 - router 사용
 
@@ -136,5 +136,6 @@
   - delete.vue
 
 - Singup.vue
+  
   - username,pw1, pw2
 - Login.vue
